@@ -1,0 +1,2 @@
+npm install --save-dev @graphql-codegen/typescript-apollo-angular
+npx graphql-code-generator init

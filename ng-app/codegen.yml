@@ -1,0 +1,9 @@
+overwrite: true
+schema: "https://spacex-production.up.railway.app/"
+documents: "src/app/**/*.ts"
+generates:
+  src/generated/graphql.ts:
+    plugins:
+      - "typescript"
+      - "typescript-operations"
+      - "typescript-apollo-angular"
